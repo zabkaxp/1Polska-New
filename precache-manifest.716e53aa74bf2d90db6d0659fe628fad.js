@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/1Polska-New/static/media/flaga.5b4b3902.jpg"
   },
   {
-    "revision": "a5399c3d2822da655d63",
-    "url": "/1Polska-New/static/css/main.03ae5e98.chunk.css"
+    "revision": "acb066f04af012fcecac",
+    "url": "/1Polska-New/static/css/main.cd78902e.chunk.css"
   },
   {
     "revision": "72a4b5767949c038a8ed",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/1Polska-New/static/media/meeting-background1.74aad9b6.JPG"
   },
   {
-    "revision": "a5399c3d2822da655d63",
+    "revision": "acb066f04af012fcecac",
     "url": "/1Polska-New/static/js/main.049c3eba.chunk.js"
   },
   {
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/1Polska-New/static/media/video-banki.1d615994.JPG"
   },
   {
-    "revision": "dc57f8327b797aeff100174e877b12ed",
+    "revision": "54d4e627d2cd986a468293d916a4e7d7",
     "url": "/1Polska-New/index.html"
   }
 ];
