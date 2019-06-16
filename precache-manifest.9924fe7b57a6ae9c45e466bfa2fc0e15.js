@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "6ebaf55c12bd74e0454a1263a8e95915",
-    "url": "/1Polska-New/static/media/video-podatki.6ebaf55c.JPG"
+    "revision": "17265dca44fe4ddf2bffe2d18f83f1c5",
+    "url": "/1Polska-New/static/media/video-podatki.17265dca.JPG"
   },
   {
-    "revision": "dce0abe3c07ea5ddb33b",
-    "url": "/1Polska-New/static/css/main.82b57ad5.chunk.css"
+    "revision": "f5caec74aad27eb55ed7",
+    "url": "/1Polska-New/static/css/main.97730940.chunk.css"
   },
   {
     "revision": "72a4b5767949c038a8ed",
     "url": "/1Polska-New/static/js/runtime~main.ffdc378f.js"
   },
   {
-    "revision": "ab1705c3ce0bb2e0be0c",
-    "url": "/1Polska-New/static/js/2.65d11569.chunk.js"
+    "revision": "13026056505f48c4f2dc",
+    "url": "/1Polska-New/static/js/2.5687e517.chunk.js"
   },
   {
     "revision": "74aad9b693c7ebc583c3aa15e6c7ebac",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/1Polska-New/static/media/logo.5400b877.png"
   },
   {
-    "revision": "dce0abe3c07ea5ddb33b",
-    "url": "/1Polska-New/static/js/main.5d2c6533.chunk.js"
+    "revision": "f5caec74aad27eb55ed7",
+    "url": "/1Polska-New/static/js/main.be9255a8.chunk.js"
   },
   {
     "revision": "d25a7a3c8b73ff283bb9d83ed30a1d22",
@@ -52,7 +52,11 @@ self.__precacheManifest = [
     "url": "/1Polska-New/static/media/video-kotwica.578435b1.JPG"
   },
   {
-    "revision": "c07c6851e83a768801b4d7ba7c064a69",
+    "revision": "eb7a383c0c05baf7f1a1f2606b975e53",
+    "url": "/1Polska-New/static/media/suits.eb7a383c.jpg"
+  },
+  {
+    "revision": "e43e772aec82db3360750b61ec40d4a5",
     "url": "/1Polska-New/index.html"
   }
 ];
