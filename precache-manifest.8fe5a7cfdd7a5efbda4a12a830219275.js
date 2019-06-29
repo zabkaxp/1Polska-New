@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/1Polska-New/static/media/video-podatki.17265dca.JPG"
   },
   {
-    "revision": "aac62b072fd8d0b6d998",
-    "url": "/1Polska-New/static/css/main.34506514.chunk.css"
+    "revision": "39a5c8121feca0d3201e",
+    "url": "/1Polska-New/static/css/main.1743aca1.chunk.css"
   },
   {
     "revision": "72a4b5767949c038a8ed",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/1Polska-New/static/media/meeting-background1.74aad9b6.JPG"
   },
   {
-    "revision": "aac62b072fd8d0b6d998",
-    "url": "/1Polska-New/static/js/main.f24cb5c8.chunk.js"
+    "revision": "39a5c8121feca0d3201e",
+    "url": "/1Polska-New/static/js/main.8ef1d4bf.chunk.js"
   },
   {
     "revision": "d25a7a3c8b73ff283bb9d83ed30a1d22",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/1Polska-New/static/media/suits.eb7a383c.jpg"
   },
   {
-    "revision": "f5d68e45eaf01ead5086c1aebec0c61c",
+    "revision": "9353a6c95cca3677592366f4bb6d24ed",
     "url": "/1Polska-New/index.html"
   }
 ];
