@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/1Polska-New/static/media/video-podatki.17265dca.JPG"
   },
   {
-    "revision": "39a5c8121feca0d3201e",
-    "url": "/1Polska-New/static/css/main.1743aca1.chunk.css"
+    "revision": "9e470a3c9e7e80885182",
+    "url": "/1Polska-New/static/css/main.08ab3dde.chunk.css"
   },
   {
     "revision": "72a4b5767949c038a8ed",
     "url": "/1Polska-New/static/js/runtime~main.ffdc378f.js"
   },
   {
-    "revision": "1032b0e4e2fd0c46da7a",
-    "url": "/1Polska-New/static/js/2.51b962bf.chunk.js"
+    "revision": "47be98192bd05dc88769",
+    "url": "/1Polska-New/static/js/2.397690d1.chunk.js"
   },
   {
     "revision": "5b4b3902d8c3c429f9229797c3d54a84",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/1Polska-New/static/media/meeting-background1.74aad9b6.JPG"
   },
   {
-    "revision": "39a5c8121feca0d3201e",
-    "url": "/1Polska-New/static/js/main.8ef1d4bf.chunk.js"
+    "revision": "9e470a3c9e7e80885182",
+    "url": "/1Polska-New/static/js/main.b4af0926.chunk.js"
   },
   {
     "revision": "d25a7a3c8b73ff283bb9d83ed30a1d22",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/1Polska-New/static/media/suits.eb7a383c.jpg"
   },
   {
-    "revision": "9353a6c95cca3677592366f4bb6d24ed",
+    "revision": "fadd3a3b5618cac8d23cf489b5f6aa10",
     "url": "/1Polska-New/index.html"
   }
 ];
