@@ -87,9 +87,9 @@ class DemandsPage extends React.Component {
               </div>
             </div>
             <div className="repDetails-right">
-              <div className="repDetails-top-right">
+              {/*<div className="repDetails-top-right">
                 Dodano {hardcodedDem.dateAdded}
-              </div>
+              </div>*/}
               <div class="votingBox">
                 <i class="fas fa-vote-yea"></i>
                 <div className="votingBoxText">Popieram!</div>
@@ -108,9 +108,9 @@ class DemandsPage extends React.Component {
               </div>
             </div>
             <div className="repDetails-right">
-              <div className="repDetails-top-right">
+              {/*<div className="repDetails-top-right">
                 Dodano {hardcodedDem2.dateAdded}
-              </div>
+              </div>*/}
               <div class="votingBox">
                 <i class="fas fa-vote-yea"></i>
                 <div className="votingBoxText">Popieram!</div>
