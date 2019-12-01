@@ -1,0 +1,58 @@
+//MEDIA QUERY MANAGER
+/*
+0-600px:    Phone
+600-900px:  Tablet Portrait
+900-1200px  Tablet landscape
+1200-1800px   STANDARD
+1800px +      Big desktop
+1em = 16px
+*/
+@mixin respond($breakpoint) {
+  @if $breakpoint == phone {
+    @media (max-width: 37.5em) {
+      @content;
+    }
+  }
+  @if $breakpoint == tab-port {
+    @media (max-width: 56.25em) {
+      @content;
+    }
+  }
+  @if $breakpoint == tab-land {
+    @media (max-width: 75em) {
+      @content;
+    }
+  }
+  @if $breakpoint == big-desktop {
+    @media (min-width: 112.5em) {
+      @content;
+    }
+  }
+}
+
+:root {
+  --page-margin: 100px 150px 40px 150px;
+
+  /*heading variables */
+}
+h1 {
+  text-transform: uppercase;
+  color: #142239;
+  margin: 50px 0;
+  font-size: 23px;
+  line-height: 35px;
+  letter-spacing: 2px;
+  @include respond(phone) {
+    font-size: 21px;
+    line-height: 27px;
+    letter-spacing: 0;
+    margin: 30px 0;
+  }
+
+  @include respond(tab-port) {
+    font-size: 23px;
+    line-height: 30px;
+    margin: 40px 0;
+    letter-spacing: 1px;
+  }
+}

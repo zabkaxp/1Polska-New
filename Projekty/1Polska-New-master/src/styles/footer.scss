@@ -1,0 +1,29 @@
+@import "./variables.scss";
+.footer {
+  height: 30vh;
+  background-color: #232386;
+  display: flex;
+  margin-top: 20px;
+}
+
+.footer-pages > ul {
+  margin-top: 10%;
+  margin-left: 20vw;
+
+  border-right: 2px solid white;
+}
+
+.footer-pages > ul > li {
+  text-align: right;
+  color: white;
+  margin: 8px;
+}
+
+.footer-pages > ul > li:hover {
+  cursor: pointer;
+  color: lightblue;
+}
+
+.link-li {
+  color: white;
+}

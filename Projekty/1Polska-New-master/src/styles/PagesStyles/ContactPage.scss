@@ -1,0 +1,58 @@
+@import "../variables.scss";
+.contactPage {
+  margin: var(--page-margin);
+  @include respond(phone) {
+    margin: 0 10px;
+  }
+
+  @include respond(tab-land) {
+    margin: 0 20px;
+  }
+  @include respond(tab-port) {
+    margin: 0 10px;
+  }
+}
+
+.contact-persons-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.contact-person {
+  margin: 20px 20px;
+}
+
+.contact-name {
+  font-weight: 700;
+  color: darkblue;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.contact-mail {
+  margin: 10px;
+}
+
+.downloads-title {
+  margin-top: 60px;
+}
+.contact-faq {
+  margin-top: 60px;
+}
+
+.downloads-items {
+  display: flex;
+
+  flex-direction: column;
+}
+.downloads-item {
+  line-height: 50px;
+  display: flex;
+
+  justify-content: center;
+}
+
+.downloads-item > a {
+  margin-left: 30px;
+}

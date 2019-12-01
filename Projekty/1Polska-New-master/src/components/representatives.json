@@ -1,0 +1,92 @@
+{
+  "title": "Reprezentanci",
+
+  "coordinators": [
+    {
+      "id": "anna_kowalska_95",
+      "name": "Anna Kowalska",
+      "email": "anna@gmail.com",
+      "phone": "987 980 654",
+      "positives": 21,
+      "negatives": 78,
+      "picture": "https://randomuser.me/api/portraits/women/90.jpg",
+      "area": "19 - Warszawa",
+      "shortDescription": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+      "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "registrationDate": "4 lata temu",
+      "tags": "",
+      "trusted": ["Kaja Nic", "Filip Koc", "Aga Byk"],
+      "notTrusted": ["Alicja Kaci", "Mike Loska", "Didi Obama"],
+      "likedDemands": [
+        "labore et dolore magna aliqua. Ut enim ad minim",
+        "Ut enim ad minim",
+        "labore et dolore magna aliqua."
+      ]
+    },
+    {
+      "id": "adam_kowalski_55",
+      "name": "Adam Kowalski",
+      "email": "adi@gmail.com",
+      "phone": "567 543 432",
+      "positives": 90,
+      "negatives": 1000,
+      "picture": "https://randomuser.me/api/portraits/men/90.jpg",
+      "area": "19 - Warszawa",
+      "shortDescription": "Neque poit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+      "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit,rro quisquam est, qui dolorem ipsum quia dolor s sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "registrationDate": "3 lata temu",
+      "tags": "",
+      "trusted": [
+        "Kaja Koc",
+        "Leopold Staff",
+        "Janka Lilo",
+        "Ania Nic",
+        "Seweryn Janki",
+        "Lila Sut"
+      ],
+      "notTrusted": ["Kejt Hakiel", "Mila Jaki"],
+      "likedDemands": [
+        "labore et dolore magna aliqua. Ut enim ad minim",
+        "Ut enim ad minim",
+        "labore et dolore magna aliqua.",
+        "Ut enim ad minim",
+        "labore et dolore magna aliqua."
+      ]
+    },
+    {
+      "id": "karol_nowak_0",
+      "name": "Karol Nowak",
+      "email": "karp@gmail.com",
+      "phone": "767 788 435",
+      "positives": 90,
+      "negatives": 2,
+      "picture": "https://randomuser.me/api/portraits/men/29.jpg",
+      "area": "1 - Legnica",
+      "shortDescription": "Neque poit amet, consectnt ut labore et dolore magnam aliquam quaerat voluptatem.",
+      "fullDescription": "Lorem ipsuuia dolor s sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "registrationDate": "1 rok temu",
+      "tags": "",
+      "trusted": [
+        "Mini Edgell",
+        "Cat Pen",
+        "Janusz Katuszewski",
+        "Oskar Kurylik",
+        "Gosia Kicki"
+      ],
+      "notTrusted": [
+        "Rebecca Cumberlidge",
+        "Winnie The Pooh",
+        "Tinnie Winnie",
+        "Oskar Wojno"
+      ],
+      "likedDemands": [
+        "labore et dolore magna aliqua. Ut enim ad minim",
+        "Ut enim ad minim",
+        "Neque poit amet, consectnt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "labore et dolore magna aliqua.",
+        "Ut enim ad minim",
+        "labore et dolore magna aliqua."
+      ]
+    }
+  ]
+}

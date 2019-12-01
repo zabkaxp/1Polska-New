@@ -1,0 +1,44 @@
+.repBox-container {
+  margin-top: 3;
+}
+
+.repBox {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  border-bottom: 2px solid lightgray;
+}
+.repPicture {
+  width: 15%;
+  height: 15%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.repDetails {
+  margin: 0;
+  width: 80%;
+  float: right;
+  vertical-align: middle;
+}
+.repDetails-top {
+  display: flex;
+  justify-content: space-between;
+}
+.repDetails-top-left {
+  text-align: left;
+  padding-left: 15px;
+}
+.repDetails-top-left > :nth-child(1) {
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.repDetails-top-right {
+  color: darkgrey;
+}
+.repDetails-bottom {
+  padding: 15px;
+  text-align: left;
+}

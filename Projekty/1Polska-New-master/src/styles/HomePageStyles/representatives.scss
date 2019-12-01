@@ -1,0 +1,110 @@
+@import "../variables.scss";
+.representatives {
+  height: 90vh;
+  position: relative;
+  margin-bottom: 50px;
+}
+.reps-container {
+  display: flex;
+  @include respond(phone) {
+    flex-direction: column;
+  }
+
+  @include respond(tab-port) {
+    flex-direction: column;
+  }
+}
+.map {
+  width: 50%;
+  @include respond(phone) {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+.map-info {
+  width: 50%;
+}
+.map-instructions {
+  font-size: 19px;
+}
+.map-info-container {
+  border-radius: 3px;
+  margin-right: 50px;
+  display: inline-block;
+  padding: 0 30px 30px 50px;
+  position: relative;
+}
+.map > svg {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(0 0 5px black);
+}
+
+.map-okrag-name {
+  white-space: pre-wrap;
+  font-size: 26px;
+  line-height: 50px;
+}
+
+.map > svg path:hover {
+  stroke-width: 2px;
+  stroke-linejoin: round;
+  fill: lightgray !important;
+  cursor: pointer;
+}
+
+.button-container {
+  font-size: 12px;
+  text-align: center;
+  position: relative;
+}
+
+.button-text-box {
+  text-align: center;
+  color: white;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: darkblue;
+  display: inline-block;
+  color: white;
+  margin-top: 15px;
+  border-radius: 4px;
+  padding: 4px 12px;
+  transition: 0.3s;
+}
+
+.button-text-box:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+.button-text-box:active {
+  transform: scale(0.95);
+}
+.coordinatorsBox {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.regionCoordinatorBox {
+  border: 1px lightgray solid;
+  padding: 20px;
+  margin: 10px;
+  font-size: 16px;
+  display: inline;
+}
+
+.coordinatorsBoxTitle {
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: 20px;
+}

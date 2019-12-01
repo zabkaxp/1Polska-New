@@ -1,0 +1,116 @@
+@import "../variables.scss";
+.demands {
+  margin: var(--page-margin);
+
+  @include respond(tab-land) {
+    margin: 0 20px;
+  }
+  @include respond(tab-port) {
+    margin: 0 10px;
+  }
+  @include respond(phone) {
+    margin: 0 10px;
+  }
+}
+
+.demands-container {
+  margin-top: 30px;
+}
+
+.demands-boxes-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.demands-box {
+  border: 0.2px #002868 solid;
+  max-width: 285px;
+  min-width: 250px;
+  width: 30%;
+  background-color: white;
+  -webkit-box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.75);
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.demands-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  width: 100%;
+  overflow: hidden;
+}
+.demands-img-container:hover {
+  cursor: pointer;
+}
+
+.demands-img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+}
+.fa-play-circle {
+  z-index: 300;
+  text-align: center;
+  font-size: 100px;
+  opacity: 0.4;
+  align-self: center;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.demands-title {
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 20px 15px 15px 15px;
+  color: #142239;
+  font-weight: 600;
+  line-height: 20px;
+}
+.demands-description {
+  padding: 0 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+  color: #142239;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.demands-button-text-box {
+  text-align: center;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 12px;
+  text-transform: uppercase;
+  background-color: darkblue;
+  color: white;
+  margin: 15px 0;
+  border-radius: 4px;
+  padding: 4px 9px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.demands-button-text-box:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+.demands-button-text-box:active {
+  transform: scale(0.95);
+}

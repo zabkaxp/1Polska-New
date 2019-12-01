@@ -1,0 +1,66 @@
+{
+  "name": "1polska-new",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://zabkaxp.github.io/1Polska-New",
+  "dependencies": {
+    "a.": "0.0.1",
+    "bootstrap": "^4.3.1",
+    "eslint-plugin-prettier": "^3.1.1",
+    "file-loader": "^4.0.0",
+    "git": "^0.1.5",
+    "jquery": "^3.4.1",
+    "node-sass": "^4.12.0",
+    "npm-git-install": "^0.3.0",
+    "prettier": "^1.19.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "^2.1.8",
+    "url-loader": "^2.0.1"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "react-svg-loader": "^3.0.3",
+    "webpack-cli": "^3.3.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zabkaxp/1Polska-New.git"
+  },
+  "keywords": [
+    "1polska",
+    "website"
+  ],
+  "author": "Marta Wojno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zabkaxp/1Polska-New/issues"
+  }
+}

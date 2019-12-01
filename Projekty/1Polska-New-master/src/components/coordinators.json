@@ -1,0 +1,561 @@
+
+
+{    
+    "1":{  
+       "city":"Legnica",
+       "facebook":"https://www.facebook.com/groups/908271105911469/",
+       "coordinators":[  
+          {  
+             "name":"Marcin Roszak",
+             "email":"bechemm@gmail.com",
+             "phone":"",
+             "positives":0,
+             "negatives":0
+          },
+          {  
+             "name":"Zbigniew Wilk",
+             "email":"wilk68@op.pl",
+             "phone":"793692998",
+             "positives":0,
+             "negatives":20
+          }
+       ]
+    },
+    "2":{  
+       
+      "city":"Wałbrzych",
+       "facebook":"https://www.facebook.com/groups/947891151930687/",
+       "coordinators":[  
+          {  
+             "name":"Tomasz Lingo",
+             "email":"tomasz.lingo@gmail.com ",
+             "phone":"",
+             "positives":226,
+             "negatives":10
+          },
+          {  
+             "name":"Andrzej Siedlecki",
+             "email":"andrzej.siedlecki39@onet.pl",
+             "phone":"717904559",
+             "positives":95,
+             "negatives":90
+          }
+       ]
+    },
+    "3":{  
+      "city":"Wrocław",
+       "facebook":"https://www.facebook.com/groups/731343593655242/",
+       "coordinators":[  
+          {  
+             "name":"Paweł Chmielewski",
+             "email":"pavlo36@o2.pl",
+             "phone":""
+          }
+       ]
+    },
+    "4":{  "city":"Bydgoszcz",
+       "facebook":"https://www.facebook.com/groups/417217568463450/",
+       "coordinators":[  
+          {  
+             "name":"Sławomir Wożniak",
+             "email":"obywatel.wozniak@gmail.com",
+             "phone":"697979544"
+          }
+       ]
+    },
+    "5":{  "city":"Toruń",
+       "facebook":"https://www.facebook.com/groups/509073355913313/",
+       "coordinators":[  
+          {  
+             "name":"Tomasz Mgłosiek",
+             "email":"t.mglosiek@gmail.com",
+             "phone":"502049987"
+          }
+       ]
+    },
+    "6":{  "city":"Lublin",
+       "facebook":"https://www.facebook.com/groups/491168557716690/",
+       "coordinators":[  
+          {  
+             "name":"Piotr Bezłada",
+             "email":"piotrb1991@wp.pl",
+             "phone":""
+          },
+          {  
+             "name":"Andrzej Jedrzejewski",
+             "email":"abjedrzejewski@gmail.com",
+             "phone":"513989601"
+          }
+       ]
+    },
+    "7":{  "city":"Chełm",
+       "facebook":"https://www.facebook.com/groups/1104247926270859/",
+       "coordinators":[  
+          {  
+             "name":"Adam Stalerzuk",
+             "email":"adamstalerzuk@gmail.com ",
+             "phone":""
+          },
+          {  
+             "name":"Wojciech Mateńka",
+             "email":"kmatenko@wp.pl",
+             "phone":"502383288"
+          }
+       ]
+    },
+    "8":{ "city":"Zielona Góra", 
+       "facebook":"https://www.facebook.com/groups/917488598309003/",
+       "coordinators":[  
+          {  
+             "name":"Dariusz Skarżyński",
+             "email":"ziaskarbiec@tlen.pl",
+             "phone":"604409747"
+          }
+       ]
+    },
+    "9":{ "city":"Łódź",  
+       "facebook":"https://www.facebook.com/groups/1434816850179920/",
+       "coordinators":[  
+          {  
+             "name":"Roman Klimczyk",
+             "email":"klromano@gmail.com",
+             "phone":"606301358"
+          }
+       ]
+    },
+    "10":{  "city":"Piotrków Trybunalski",
+       "facebook":"https://www.facebook.com/groups/912968025429008/",
+       "coordinators":[  
+          {  
+             "name":"Andrzej Prochoń",
+             "email":"okprik@interia.pl",
+             "phone":"721296738"
+          },
+          {  
+             "name":"Grzegorz Sowa",
+             "email":"avos@poczta.onet.pl",
+             "phone":"603783245"
+          }
+       ]
+    },
+    "11":{  "city":"Sieradz",
+       "facebook":"https://www.facebook.com/groups/1635449130002211/",
+       "coordinators":[  
+          {  
+             "name":"Andrzej Szałek",
+             "email":"a.szalek@vp.pl",
+             "phone":"500001607"
+          }
+       ]
+    },
+    "12":{  "city":"Chrzanów",
+       "facebook":"https://www.facebook.com/groups/457218277771249/",
+       "coordinators":[  
+          {  
+             "name":"Wojciech Zaborowski",
+             "email":"czerwie@tlen.pl",
+             "phone":""
+          },
+          {  
+             "name":"Przemysław Paw",
+             "email":"paw.przemyslaw@gmail.com",
+             "phone":"602486486"
+          }
+       ]
+    },
+    "13":{  "city":"Kraków",
+       "facebook":"https://www.facebook.com/groups/1632795793603266/",
+       "coordinators":[  
+          {  
+             "name":"Sławomir Grabiec",
+             "email":"slawomir.grabiec@wp.pl ",
+             "phone":""
+          },
+          {  
+             "name":"Sławomir Marczewski",
+             "email":"slawomir.m@poczta.onet.pl",
+             "phone":"502377155"
+          }
+       ]
+    },
+    "14":{  "city":"Nowy Sącz",
+       "facebook":"https://www.facebook.com/groups/1083733968320590/",
+       "coordinators":[  
+          {  
+             "name":"Józef Janusz",
+             "email":"jozekjano2@poczta.onet.pl",
+             "phone":"603953806"
+          },
+          {  
+             "name":"Ryszard Schaeffer",
+             "email":"topwanta@gmail.com",
+             "phone":"734776168"
+          }
+       ]
+    },
+    "15":{  "city":"Tarnów",
+       "facebook":"https://www.facebook.com/groups/531437437007077/",
+       "coordinators":[  
+          {  
+             "name":"Damian Józefczyk",
+             "email":"damian@gmx.it",
+             "phone":"721557785"
+          },
+          {  
+             "name":"Mariola Mierzawska",
+             "email":"akademiamalucha1@o2.pl",
+             "phone":"533901530"
+          }
+       ]
+    },
+    "16":{  "city":"Płock",
+       "facebook":"https://www.facebook.com/groups/758306620933987/",
+       "coordinators":[  
+          {  
+             "name":"Kamil Zduńczyk",
+             "email":"kamil.zdunczyk@o2.pl",
+             "phone":""
+          },
+          {  
+             "name":"Dariusz Grudziecki",
+             "email":"dariuszgrudziecki@gmail.com",
+             "phone":"784403584"
+          }
+       ]
+    },
+    "17":{  "city":"Radom",
+       "facebook":"https://www.facebook.com/groups/445345572311056/",
+       "coordinators":[  
+          {  
+             "name":"Krzysztof Skrzypczak",
+             "email":"agrotechpol@interia.pl",
+             "phone":"602234119"
+          },
+          {  
+             "name":"Andrzej Gospodarek",
+             "email":"andrzej.gospodarek.radom@gmail.com",
+             "phone":"606736999"
+          }
+       ]
+    },
+    "18":{  "city":"Siedlce",
+       "facebook":"https://www.facebook.com/groups/1612115142390544/",
+       "coordinators":[  
+          {  
+             "name":"Krzysztof Frąckowiak",
+             "email":"zyher@o2.pl",
+             "phone":""
+          }
+       ]
+    },
+    "19":{  "city":"Warszawa",
+       "facebook":"https://www.facebook.com/groups/721744381270960/",
+       "coordinators":[  
+          {  
+             "name":"Wojciech Dobrzyński",
+             "email":"wojdob1@wp.pl",
+             "phone":"531220191"
+          },
+          {  
+             "name":"Andrzej Dombrowicz",
+             "email":"wia@neostrada.pl",
+             "phone":"501029100"
+          },
+          {  
+             "name":"Bogdan Rutkowski",
+             "email":"bogdanw.rutkowski@wp.pl",
+             "phone":"727681051"
+          }
+       ]
+    },
+    "20":{  "city":"Warszawa",
+       "facebook":"https://www.facebook.com/groups/1453024055001967/",
+       "coordinators":[  
+          {  
+             "name":"Anna Kazahari",
+             "email":"info@hempfukushima.pl",
+             "phone":"572258423"
+          },
+          {  
+             "name":"Anna Cywińska",
+             "email":"acywinska@lbin.pl",
+             "phone":"505097217"
+          }
+       ]
+    },
+    "21":{  "city":"Opole",
+       "facebook":"https://www.facebook.com/groups/854108544687253/",
+       "coordinators":[  
+          {  
+             "name":"Łukasz Fomicz",
+             "email":"geologikus@wp.pl",
+             "phone":""
+          }
+       ]
+    },
+    "22":{  "city":"Krosno",
+       "facebook":"https://www.facebook.com/groups/1867208836837598/",
+       "coordinators":[  
+          {  
+             "name":"Dariusz Bugiel",
+             "email":"dbugiel86@gmail.com",
+             "phone":""
+          },
+          {  
+             "name":"Bożena Kamińska",
+             "email":"bonic102@gmai.com",
+             "phone":"607587582"
+          }
+       ]
+    },
+    "23":{  "city":"Rzeszów",
+       "facebook":"https://www.facebook.com/groups/1593192354264878/",
+       "coordinators":[  
+          {  
+             "name":"Ryszard Bachórz",
+             "email":"boinwest@wp.pl",
+             "phone":""
+          },
+          {  
+             "name":"Agata Rojek",
+             "email":"agata.rojek@op.pl",
+             "phone":"690858136"
+          }
+       ]
+    },
+    "24":{  "city":"Białystok",
+       "facebook":"https://www.facebook.com/groups/725241937603832/",
+       "coordinators":[  
+          {  
+             "name":"Eugenia Siebiatyńska",
+             "email":"siebiatynska@op.pl",
+             "phone":""
+          },
+          {  
+             "name":"Adrian Nikołajuk",
+             "email":"adrian.nikolajuk@mailplus.pl",
+             "phone":""
+          },
+          {  
+             "name":"Jacek Puchnowski",
+             "email":"komandoraugust@gmail.com",
+             "phone":"691398519"
+          }
+       ]
+    },
+    "25":{  "city":"Gdańsk",
+       "facebook":"https://www.facebook.com/groups/1476037562693667/",
+       "coordinators":[  
+          {  
+             "name":"Andrzej Szwat",
+             "email":"andrzejandy@op.pl",
+             "phone":""
+          },
+          {  
+             "name":"Krzysztof Kornatowicz",
+             "email":"kornatk@gmail.com",
+             "phone":"502421332"
+          }
+       ]
+    },
+    "26":{  "city":"Gdynia",
+       "facebook":"https://www.facebook.com/groups/1655423868011199/",
+       "coordinators":[  
+          {  
+             "name":"Sławomir Rakoczy",
+             "email":"sl.rakoczy@gmail.com",
+             "phone":"506074946"
+          },
+          {  
+             "name":"Adam Polak",
+             "email":"mail4adas@yahoo.com",
+             "phone":""
+          }
+       ]
+    },
+    "27":{  "city":"Bielsko-Biała",
+       "facebook":"https://www.facebook.com/groups/1018219964865065/",
+       "coordinators":[  
+          {  
+             "name":"Jerzy Meisner",
+             "email":"jurek.meissner@gmail.com",
+             "phone":"530038013"
+          },
+          {  
+             "name":"Dariusz Piechaczek",
+             "email":"antysystemowi.czechowice@gmail.com",
+             "phone":""
+          },
+          {  
+             "name":"Witold Adamczyk",
+             "email":"witold_adamczyk@poczta.onet.pl",
+             "phone":"601324012"
+          }
+       ]
+    },
+    "28":{  "city":"Częstochowa",
+       "facebook":"https://www.facebook.com/groups/479664668867253/",
+       "coordinators":[  
+          {  
+             "name":"Stanisław Włodarczyk",
+             "email":"superstas2009@wp.pl",
+             "phone":"728336720"
+          }
+       ]
+    },
+    "29":{  "city":"Gliwice",
+       "facebook":"https://www.facebook.com/groups/667136910083252/",
+       "coordinators":[  
+          {  
+             "name":"Michał Gaj-Majkowski",
+             "email":"mgm.ihrewolf@gmail.com",
+             "phone":"883309802"
+          },
+          {  
+             "name":"Marian Waszkielewicz",
+             "email":"mwaszkielewicz@gmail.com",
+             "phone":"728584350"
+          }
+       ]
+    },
+    "30":{  "city":"Rybnik",
+       "facebook":"https://www.facebook.com/groups/532332356919452/",
+       "coordinators":[  
+          {  
+             "name":"Zbigniew Martyniak",
+             "email":"zbigniew.martyniak@vp.pl",
+             "phone":"510197383"
+          }
+       ]
+    },
+    "31":{  "city":"Katowice",
+       "facebook":"https://www.facebook.com/groups/1032136783477991/",
+       "coordinators":[  
+          {  
+             "name":"Marek Adamczyk",
+             "email":"adamczyk04@interia.pl",
+             "phone":"514673275"
+          },
+          {  
+             "name":"Krzysztof Tytko",
+             "email":"ktytko@o2.pl",
+             "phone":"500108560"
+          }
+       ]
+    },
+    "32":{  "city":"Sosnowiec",
+       "facebook":"https://www.facebook.com/groups/978383662214194/",
+       "coordinators":[  
+          {  
+             "name":"Andrzej Dymczyk",
+             "email":"dymczykandrzej@gmail.com",
+             "phone":"880306201"
+          },
+          {  
+             "name":"Dariusz Tomaszewski",
+             "email":"dariuszknp@gmail.com",
+             "phone":"604299800"
+          }
+       ]
+    },
+    "33":{ "city":"Kielce", 
+       "facebook":"https://www.facebook.com/groups/505643026278349/",
+       "coordinators":[  
+          {  
+             "name":"Paweł Baran",
+             "email":"carpmaniack@gmail.com",
+             "phone":""
+          }
+       ]
+    },
+    "34":{  "city":"Elbląg",
+       "facebook":"https://www.facebook.com/groups/1602368243349839/",
+       "coordinators":[  
+          {  
+             "name":"Anna Mucha",
+             "email":"anna.mucha@hotmail.com ",
+             "phone":""
+          }
+       ]
+    },
+    "35":{  "city":"Olsztyn",
+       "facebook":"https://www.facebook.com/groups/503751523120524/",
+       "coordinators":[  
+          {  
+             "name":"Daniel Maksymilian Kowitz",
+             "email":"daniel.kowitz@wp.pl",
+             "phone":"510375849"
+          },
+          {  
+             "name":"Izabella Redlarska",
+             "email":"RzecznikPrawHodowcy@adres.pl",
+             "phone":"511945226"
+          }
+       ]
+    },
+    "36":{  "city":"Kalisz",
+       "facebook":"https://www.facebook.com/groups/1644235409123417/",
+       "coordinators":[  
+          {  
+             "name":"Bogdan Rubas",
+             "email":"gingusbiloba@gmail.com ",
+             "phone":""
+          }
+       ]
+    },
+    "37":{  "city":"Konin",
+       "facebook":"https://www.facebook.com/groups/495980517219238/",
+       "coordinators":[  
+          {  
+             "name":"Darek Czarnojańczyk",
+             "email":"d.czarnojanczyk@gmail.com",
+             "phone":"604417435"
+          }
+       ]
+    },
+    "38":{  "city":"Piła",
+       "facebook":"https://www.facebook.com/groups/1593871520876224/",
+       "coordinators":[  
+          {  
+             "name":"Jarosław Gawrysiak",
+             "email":"jargaw@op.pl",
+             "phone":"605599363"
+          }
+       ]
+    },
+    "39":{  "city":"Poznań",
+       "facebook":"https://www.facebook.com/groups/1384329741868392/",
+       "coordinators":[  
+          {  
+             "name":"Radosław Kosiorek",
+             "email":"radoslaw-kosiorek@gazeta.pl",
+             "phone":"507369167"
+          },
+          {  
+             "name":"Maciej Markowski",
+             "email":"Markowski.maciej@yahoo.com",
+             "phone":"784611194"
+          }
+       ]
+    },
+    "40":{  "city":"Koszalin",
+       "facebook":"https://www.facebook.com/groups/1602057560064446/",
+       "coordinators":[  
+          {  
+             "name":"Jarosław Muras",
+             "email":"j.g.muras@gmail.com",
+             "phone":"698659064"
+          }
+       ]
+    },
+    "41":{  "city":"Szczecin",
+       "facebook":"https://www.facebook.com/groups/850472365001445/",
+       "coordinators":[  
+          {  
+             "name":"Sławomir Strzępka",
+             "email":"renoma@op.pl",
+             "phone":""
+          }
+       ]
+    }
+ }
