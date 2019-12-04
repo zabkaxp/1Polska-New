@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import values from "../components/coordinators.json";
 import reps from "../components/representatives.json";
 import "../styles/repBox.scss";
@@ -31,10 +32,35 @@ class RepresentativesPage extends React.Component {
     });
   };
   render() {
-    const hardcodedRep = reps.coordinators[1];
-    const hardcodedRep2 = reps.coordinators[2];
     const selectCities = this.state.selectOptions.map(option => {
       return <option value={option}>{option}</option>;
+    });
+    const repsList = reps.coordinators.map(rep => {
+      return (
+        <div className="repBox">
+          <img
+            className="repPicture"
+            src={rep.picture}
+            alt="represantative"
+          ></img>
+
+          <div className="repDetails">
+            <div className="repDetails-top">
+              <div className="repDetails-top-left">
+                <NavLink to={`reprezentanci/${rep.name}`}>
+                  <div>{rep.name}</div>
+                </NavLink>
+
+                <div>Okręg numer {rep.area}</div>
+              </div>
+              <div className="repDetails-top-right">
+                Dołączono {rep.registrationDate}
+              </div>
+            </div>
+            <div className="repDetails-bottom">{rep.shortDescription}</div>
+          </div>
+        </div>
+      );
     });
     return (
       <div className="representativesPage">
@@ -81,52 +107,7 @@ class RepresentativesPage extends React.Component {
             <i className="fas fa-search" /> {` Szukaj`}
           </div>
         </div>
-        <div className="repBox-container">
-          <div className="repBox">
-            <img
-              className="repPicture"
-              src={hardcodedRep.picture}
-              alt="represantative"
-            ></img>
-
-            <div className="repDetails">
-              <div className="repDetails-top">
-                <div className="repDetails-top-left">
-                  <div>{hardcodedRep.name}</div>
-                  <div>Okręg numer {hardcodedRep.area}</div>
-                </div>
-                <div className="repDetails-top-right">
-                  Dołączono {hardcodedRep.registrationDate}
-                </div>
-              </div>
-              <div className="repDetails-bottom">
-                {hardcodedRep.shortDescription}
-              </div>
-            </div>
-          </div>
-          <div className="repBox">
-            <img
-              className="repPicture"
-              src={hardcodedRep2.picture}
-              alt="represantative"
-            ></img>
-
-            <div className="repDetails">
-              <div className="repDetails-top">
-                <div className="repDetails-top-left">
-                  <div>{hardcodedRep2.name}</div>
-                  <div>Okręg numer {hardcodedRep2.area}</div>
-                </div>
-                <div className="repDetails-top-right">
-                  Dołączono {hardcodedRep2.registrationDate}
-                </div>
-              </div>
-              <div className="repDetails-bottom">
-                {hardcodedRep2.shortDescription}
-              </div>
-            </div>
-          </div>
-        </div>
+        <div className="repBox-container">{repsList}</div>
       </div>
     );
   }

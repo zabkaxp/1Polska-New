@@ -37,14 +37,35 @@ class DemandsPage extends React.Component {
   };
 
   render() {
-    const hardcodedDem = demands.demands[1];
-    const hardcodedDem2 = demands.demands[2];
-
     const selectCities = this.state.selectOptions.map(option => {
       return (
         <option value={option} key={option}>
           {option}
         </option>
+      );
+    });
+
+    const demandsList = demands.demands.map(demand => {
+      return (
+        <div className="repBox" key={demand}>
+          <div className="repDetails">
+            <div className="repDetails-top">
+              <div className="repDetails-top-left">
+                <div>{demand.name}</div>
+              </div>
+            </div>
+            <div className="repDetails-bottom">{demand.shortDescription}</div>
+          </div>
+          <div className="repDetails-right">
+            {/*<div className="repDetails-top-right">
+            Dodano {hardcodedDem.dateAdded}
+          </div>*/}
+            <div class="votingBox">
+              <i class="fas fa-vote-yea"></i>
+              <div className="votingBoxText">Popieram!</div>
+            </div>
+          </div>
+        </div>
       );
     });
 
@@ -74,50 +95,7 @@ class DemandsPage extends React.Component {
           </div>
         </div>
 
-        <div className="repBox-container">
-          <div className="repBox">
-            <div className="repDetails">
-              <div className="repDetails-top">
-                <div className="repDetails-top-left">
-                  <div>{hardcodedDem.name}</div>
-                </div>
-              </div>
-              <div className="repDetails-bottom">
-                {hardcodedDem.shortDescription}
-              </div>
-            </div>
-            <div className="repDetails-right">
-              {/*<div className="repDetails-top-right">
-                Dodano {hardcodedDem.dateAdded}
-              </div>*/}
-              <div class="votingBox">
-                <i class="fas fa-vote-yea"></i>
-                <div className="votingBoxText">Popieram!</div>
-              </div>
-            </div>
-          </div>
-          <div className="repBox">
-            <div className="repDetails">
-              <div className="repDetails-top">
-                <div className="repDetails-top-left">
-                  <div>{hardcodedDem2.name}</div>
-                </div>
-              </div>
-              <div className="repDetails-bottom">
-                {hardcodedDem2.shortDescription}
-              </div>
-            </div>
-            <div className="repDetails-right">
-              {/*<div className="repDetails-top-right">
-                Dodano {hardcodedDem2.dateAdded}
-              </div>*/}
-              <div class="votingBox">
-                <i class="fas fa-vote-yea"></i>
-                <div className="votingBoxText">Popieram!</div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <div className="repBox-container">{demandsList}</div>
       </div>
     );
   }

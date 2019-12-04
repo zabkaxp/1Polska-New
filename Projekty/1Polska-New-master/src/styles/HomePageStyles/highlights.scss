@@ -1,7 +1,5 @@
 @import "../variables.scss";
 .highlights {
-  margin: 30px 150px;
-
   @include respond(tab-land) {
     margin: 0 20px;
   }
@@ -15,6 +13,7 @@
 
 .highlights-container {
   background-color: white;
+  margin: 30px 150px;
   color: #142239;
 }
 .highlights-slogans {
@@ -40,54 +39,54 @@
   line-height: 25px;
   letter-spacing: 2px;
 }
+.soonest-meeting-text {
+  color: white !important;
+  width: 40%;
+
+  text-align: right;
+  padding-right: 20px;
+
+  align-self: center;
+}
 
 .highlights-meetings-container {
-  margin: 80px 0;
+  padding: 20px 0;
+  width: 100%;
+  margin: 0 !important;
+  color: white;
+  background: linear-gradient(
+    215deg,
+    rgba(35, 35, 134, 1),
+    rgba(36, 38, 165, 0.3)
+  );
+  display: flex;
 }
 .soonest-meetings {
   display: flex;
-  justify-content: space-evenly;
+  border-left: 5px dotted white;
+  flex-direction: column;
   line-height: 25px;
-  flex-wrap: wrap;
 }
 
 .meeting-box {
-  -webkit-box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.75);
-  opacity: 0.8;
   display: flex;
   flex-direction: column;
-  z-index: 100;
-  margin: 20px;
-  padding: 20px;
-  max-width: 285px;
-  min-width: 250px;
-  position: relative;
-  color: white;
-  overflow: hidden;
-  transition: 0.3 ease-in-out;
-}
 
-.meeting-box:hover {
-  transform: scale(1.1);
+  text-align: left;
+  padding: 20px;
+  margin-left: 10px;
 }
 
 .meeting-city {
   font-style: bold;
   padding-bottom: 10px;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 20px;
-  text-shadow: 3px -5px 3px black;
+  padding-right: 10px;
 }
-.meeting-background {
-  z-index: -1;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-size: cover;
-  margin: 0 auto;
+
+.meeting-addressFull {
+  display: inline-block;
 }
 
 .timer {
@@ -96,4 +95,7 @@
   color: darkred;
   letter-spacing: 3px;
   margin: 22px 0;
+}
+.separateLine {
+  display: block;
 }

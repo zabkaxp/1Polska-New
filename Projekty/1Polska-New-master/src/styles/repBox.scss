@@ -35,6 +35,9 @@
   font-weight: 900;
   color: #00008b;
 }
+.repDetails-top-left > :nth-child(1):hover {
+  text-decoration: underline;
+}
 
 .repDetails-top-right {
   color: darkgrey;

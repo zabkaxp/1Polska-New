@@ -1,0 +1,21 @@
+{
+  "title": "Najbliższe spotkania",
+
+  "meetings": [
+    {
+      "city": "KRAKÓW",
+      "date": "Sobota, 8-12-2019, godz. 14:00",
+      "address": "ul. Meiselsa 1, Sala 109, I piętro"
+    },
+    {
+      "city": "KATOWICE",
+      "date": "Piątek, 01-01-2020, godz. 11:00",
+      "address": "ul. Opolska 22, Sala A, I piętro (wejście od ul. Sobieskiego)"
+    },
+    {
+      "city": "WARSZAWA",
+      "date": "Niedziela, 12-01-2020, godz. 15:30",
+      "address": "ul. Lipowa 53, Sala 11, IV piętro"
+    }
+  ]
+}
