@@ -1,86 +1,43 @@
 import React from "react";
-import values from "../components/coordinators.json";
+import { NavLink } from "react-router-dom";
 import "../styles/PagesStyles/RepresentativePage.scss";
+import reps from "../components/representatives.json";
 
-class RepresentativesPage extends React.Component {
+class RepresentativePage extends React.Component {
   state = {
-    areaNumber: "",
-    city: "",
-    regionCoordinators: "",
-    demands: ""
+    repId: "",
+    currentRep: ""
   };
   componentWillMount = () => {
-    const areaNumber = this.props.match.params.id;
+    const repId = this.props.match.params.id;
     this.setState({
-      areaNumber
+      repId
     });
   };
+
   componentDidMount = () => {
-    const region = values[this.state.areaNumber];
-    const city = region.city;
-    const regionCoordinators = region.coordinators.map(coordinator => {
-      const mailing = `mailto:${coordinator.email}?Subject=1Polska`;
-      const totalSupport =
-        parseInt(coordinator.positives) + parseInt(coordinator.negatives);
-      const positivePercentage = Math.round(
-        (parseInt(coordinator.positives) / totalSupport) * 100
-      );
-      const negativePercentage = Math.round(
-        (parseInt(coordinator.negatives) / totalSupport) * 100
-      );
-      return (
-        <section key={coordinator.email} className="regionCoordinatorBox ">
-          <div className="coordinatorName">{coordinator.name}</div>
-          <div className="coordinatorEmail">
-            <a href={mailing}>{coordinator.email}</a>
-          </div>
-          {coordinator.phone && (
-            <div className="coordinatorPhone">tel: {coordinator.phone}</div>
-          )}
-          {positivePercentage > 1 || negativePercentage > 1 ? (
-            <div className="supportBox">
-              <div class="supportBoxPositive supportBoxWidth">
-                <div>
-                  <i class="far fa-thumbs-up" /> {positivePercentage} %{" "}
-                </div>
-              </div>
-              <div class="supportBoxNegative supportBoxWidth">
-                <div>
-                  <i class="far fa-thumbs-down" /> {negativePercentage}%{" "}
-                </div>
-              </div>
-            </div>
-          ) : (
-            undefined
-          )}
-        </section>
-      );
+    const repDetails = reps.coordinators.filter(
+      currentRep => currentRep.id === this.state.repId
+    );
+    this.setState({
+      currentRep: repDetails[0]
     });
-    this.setState({ regionCoordinators, city });
-    //console.log(region);
   };
-
   render() {
-    console.log(this.state.areaNumber);
+    const currentRep = this.state.currentRep;
     return (
-      <div>
-        <h1>
-          Okręg numer {this.state.areaNumber} - {this.state.city}
-        </h1>
-        <h2>Reprezentanci:</h2>
-
-        <div className="coordinatorsBox heightStyles">
-          {this.state.regionCoordinators}
-        </div>
-        <h2>Postulaty:</h2>
-        <div className="coordinatorsBox heightStyles">
-          {this.state.demands
-            ? undefined
-            : "Brak postulatów przypisanych do tego okręgu."}
-        </div>
+      <div className="representativeContainer">
+        <section className="representativeContainer-left">
+          <img
+            className="currentRepPicture"
+            src={currentRep.picture}
+            alt="represantative"
+          ></img>
+        </section>
+        <section className="representativeContainer-right"></section>
       </div>
     );
   }
 }
 
-export default RepresentativesPage;
+export default RepresentativePage;

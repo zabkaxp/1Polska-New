@@ -47,7 +47,7 @@ class RepresentativesPage extends React.Component {
           <div className="repDetails">
             <div className="repDetails-top">
               <div className="repDetails-top-left">
-                <NavLink to={`reprezentanci/${rep.name}`}>
+                <NavLink to={`reprezentanci/${rep.id}`}>
                   <div>{rep.name}</div>
                 </NavLink>
 

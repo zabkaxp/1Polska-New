@@ -5,6 +5,8 @@ import AboutPage from "../pages/AboutPage";
 import DemandsPage from "../pages/DemandsPage";
 import RepresentativesPage from "../pages/RepresentativesPage";
 import RepresentativePage from "../pages/RepresentativePage";
+
+import AreaPage from "../pages/AreaPage";
 import ContactPage from "../pages/ContactPage";
 import LoginPage from "../pages/LoginPage";
 //import ErrorPage from "../pages/ErrorPage";
@@ -37,8 +39,8 @@ const Pages = () => {
 
         <Route path="*/feedback" exact component={FeedbackPage} />
         <Route path="*/odzyskaj_haslo" exact component={ForgottenPassword} />
-        
         <Route path="*/reprezentanci/:id" component={RepresentativePage} />
+        <Route path="*/okregi/:id" component={AreaPage} />
         <Route path="/1Polska-New" component={HomePage} />
         <Route path="/" component={HomePage} />
         {/*just to publish it on the gh pages i have to take out the error page as gh recognizes it as front page. For deployment 

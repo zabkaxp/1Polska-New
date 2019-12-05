@@ -1,6 +1,7 @@
 @import "../variables.scss";
 .contactPage {
   margin: var(--page-margin);
+  font-size: 18px;
   @include respond(phone) {
     margin: 0 10px;
   }

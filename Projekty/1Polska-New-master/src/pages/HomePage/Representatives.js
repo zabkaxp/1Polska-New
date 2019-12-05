@@ -38,7 +38,7 @@ class Representatives extends Component {
     coordinators: []
   };
 
-  handleClick = (number) => {
+  handleClick = number => {
     const region = values[number];
     const facebook = region.facebook;
     const city = region.city;
@@ -64,7 +64,7 @@ class Representatives extends Component {
       coordinators: regionCoordinators
     });
   };
- 
+
   render() {
     return (
       <div className="representatives">
@@ -823,7 +823,7 @@ class Representatives extends Component {
                   <article className="coordinatorsBox">
                     {this.state.coordinators}
                   </article>
-                  <NavLink to={`reprezentanci/${this.state.number}`}>
+                  <NavLink to={`okregi/${this.state.number}`}>
                     <div class="button-container">
                       <div class="button">
                         <div class="button-text-box">Zobacz więcej</div>

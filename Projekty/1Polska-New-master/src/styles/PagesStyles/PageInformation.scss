@@ -3,7 +3,7 @@
 .pageInformation {
   margin: var(--page-margin);
   line-height: 26px;
-
+  text-align: left;
   @include respond(phone) {
     margin: 0 10px;
   }
