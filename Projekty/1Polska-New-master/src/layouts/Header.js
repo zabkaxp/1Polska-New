@@ -3,7 +3,7 @@ import { Route, Switch, NavLink } from "react-router-dom";
 import "../styles/header.scss";
 import Navigation from "../components/Navigation";
 import img1 from "../images/flaga.jpg";
-import img2 from "../images/logo.png";
+import img2 from "../images/1polskasvg.svg";
 
 const Header = () => {
   return (
@@ -17,7 +17,7 @@ const Header = () => {
               <div className="site-header-container">
                 <div className="header-navigation">{<Navigation />}</div>
                 <div className="header-logo-container">
-                  <div className="header-logo-box">
+                  <div className="header-logo-box main-logo">
                     <img
                       className="header-logo"
                       src={img2}
