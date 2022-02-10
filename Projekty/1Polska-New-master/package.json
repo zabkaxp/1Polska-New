@@ -10,7 +10,7 @@
     "file-loader": "^4.0.0",
     "git": "^0.1.5",
     "jquery": "^3.4.1",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "npm-git-install": "^0.3.0",
     "prettier": "^1.19.1",
     "react": "^16.8.6",
